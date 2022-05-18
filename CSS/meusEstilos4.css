@@ -5,7 +5,85 @@
 -incline-block
 -flex
 
-display:block - especifica o */
+display:block - especifica que o elemento vai ocupar toda a linha
+-div
+-titulos
+-paragrafo
+-form
+-reader
+-section
+footer */
 
-.em
+/* display :inline - especifico que o elemento n ocupa a linha toda , n permite q mude largura
+altura e margem
 
+display : inline block muda isso tudo*/
+
+.emBloco{
+    background-color: blue;
+    color:antiquewhite;
+}
+
+.emLinha{
+    background-color: blueviolet;
+    color:aquamarine;
+}
+
+.blocoEmLinha{
+    display: inline;
+}
+
+li{
+    display: inline-block;
+    background-color: coral;
+    height: 50px;          /* as propriedade de altu, larg e margem n funcionam qd o elemento esta c display inline */
+    width: 100px;
+}
+
+.botao{
+background-color: blue;
+color: white;
+border-radius: 10px;
+text-decoration: none;
+
+/* display: inline-block; */
+/* a propriedade display c o valor flex possibilita flexibil p posicionarmos os elementos */
+display: flex;
+margin-left: auto;
+margin-right: auto;
+justify-content: center; /* centralizando uma tag que ta dentro de outra tag, no caso de span dentro de a; */
+
+height: 50px;
+width: 30%;
+
+line-height: 50px;
+
+}
+
+.vermelho{ /* vai deixar uma div do lado da outra com display */
+    
+    background-color: red;
+    color: aliceblue;
+}
+.verde{
+    
+    background-color: green;
+    color: aliceblue;
+}
+.azul{    
+    
+    background-color: blue;
+    color: aliceblue;
+}
+.todasDivs { /* fez um que serve p verde, vermelho e azul */
+    display: inline-block;
+    height: 60px;
+    width: 30%;
+}
+
+.verde:hover{
+    /*display: none; */
+    visibility: hidden; /* fica invisivel  */
+}
+
+/*  atvidade, menu interativo com 4 opcoes, fonte estilizada, imagem, div com texto dentro    */

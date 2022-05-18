@@ -1,0 +1,68 @@
+
+*{
+    background-color: aqua;
+
+}
+@font-face {
+    font-family: minhafonte;
+    src: url(../fontes/WonderSmileBoldItalic_PERSONAL_USE_ONLY.otf);
+}
+
+.menu1{
+    background-color: rgb(228, 228, 50);
+    color: rgb(180, 139, 51);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 75px;
+    display:block;
+    font-family: minhafonte;
+    
+}
+
+.inicio{
+    text-align: center;
+}
+.raca1 {
+
+    background-color: rgb(201, 225, 64);
+    color:rgb(180, 120, 43);
+    display:block;
+    text-align: center;
+    
+    
+}
+.raca2 {
+    background-color: rgb(201, 225, 64);
+    color:rgb(180, 120, 43);
+    display: block;
+    text-align: center;
+    
+}
+.raca3 {
+    background-color: rgb(201, 225, 64);
+    color:rgb(180, 120, 43);
+    display: block;
+    text-align: center;
+}
+.basenji {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.mennu {
+    background-color: rgb(192, 145, 58);
+}
+.topo:hover{
+    visibility:hidden;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(114, 180, 43);
+    font-size: 30px;
+    border: 2px solid rgb(176, 136, 136);
+    
+
+}
