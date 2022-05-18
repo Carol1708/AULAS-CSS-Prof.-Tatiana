@@ -1,0 +1,73 @@
+#paragrafo1{
+    color: rgb(255, 0, 140); 
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    text-decoration:none
+    text-transform: lowercase;
+    text-indent: 20px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+#topo{
+    color: rgb(255, 0, 140); 
+    font-size: 50px;
+    text-align: center;
+    font-style:oblique
+}
+
+.minhaDiv{
+
+font-size: 55px;
+color: rgb(85, 55, 184);
+width: 45%;
+height: 650px;
+background-color: rgb(162, 209, 87);
+background-image: url("../img/leao.png");
+background-repeat: no-repeat;
+background-position: bottom center;
+background-size:cover;
+
+
+border-width: 15px 3px;
+border-radius: 30px;
+
+}
+
+#conteudo{
+    color: rgb(108, 108, 206);
+    text-align: center;
+    border: 2px solid rgb(176, 136, 136);
+    background-color: brown;
+    padding: 10px;
+}
+
+#boxModel {
+    background-color: burlywood;
+    border: 2px solid black;
+    padding: 50px 10px 20px 5px;
+    margin: 25px;
+}
+
+.botao1{
+
+    width: 100px;
+    height: 50px;
+    background-color: rgb(135, 43, 71);
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 5px;
+}
+
+.botao1:hover{
+background-color: rgb(14, 14, 91); 
+padding: 15px;
+cursor:text;
+
+}
+
+.botoes{
+    margin: 50px;
+}
