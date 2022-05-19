@@ -1,16 +1,16 @@
 
 *{
-    background-color: aqua;
-
+    background-image: linear-gradient( to right, rgb(146, 210, 140), green, rgb(53, 233, 233), rgb(229, 255, 0) );
 }
+
 @font-face {
     font-family: minhafonte;
     src: url(../fontes/WonderSmileBoldItalic_PERSONAL_USE_ONLY.otf);
 }
 
 .menu1{
-    background-color: rgb(228, 228, 50);
-    color: rgb(180, 139, 51);
+    background-color: rgb(35, 10, 134);
+    color:rgb(198, 176, 28);
     border-radius: 20px;
     text-decoration: none;
     font-size: 75px;
@@ -24,33 +24,61 @@
 }
 .raca1 {
 
-    background-color: rgb(201, 225, 64);
-    color:rgb(180, 120, 43);
+    background-color: rgb(26, 28, 16);
+    color:rgb(179, 171, 21);
     display:block;
     text-align: center;
+    font-size: 75px;
     
     
 }
 .raca2 {
     background-color: rgb(201, 225, 64);
-    color:rgb(180, 120, 43);
+    color:rgb(179, 171, 21);
     display: block;
     text-align: center;
+    font-size: 75px;
     
 }
 .raca3 {
     background-color: rgb(201, 225, 64);
-    color:rgb(180, 120, 43);
+    color:rgb(179, 171, 21);
     display: block;
     text-align: center;
+    font-size: 75px;
 }
 .basenji {
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
+
   
 }
+
+.parag1 {
+    background-color: rgb(175, 211, 145);
+    border: 10px solid rgb(92, 219, 67);
+    padding: 15px 35px 35px 35px;
+    margin: 100px;
+}
+
+
+.parag2 {
+    background-color: rgb(175, 211, 145);
+    border: 10px solid rgb(92, 219, 67);
+    padding: 15px 35px 35px 35px;
+    margin: 100px;
+}
+
+
+.parag3 {
+    background-color: rgb(175, 211, 145);
+    border: 10px solid rgb(92, 219, 67);
+    padding: 15px 35px 35px 35px;
+    margin: 100px;
+}
+
 
 .mennu {
     background-color: rgb(192, 145, 58);
