@@ -11,12 +11,13 @@
 .menu1{
     background-color: rgb(35, 10, 134);
     color:rgb(198, 176, 28);
-    border-radius: 20px;
     text-decoration: none;
-    font-size: 75px;
+    font-size: 95px;
     display:block;
     font-family: minhafonte;
-    
+    height: 10px;
+    width: 850px;
+
 }
 
 .inicio{
@@ -24,7 +25,7 @@
 }
 .raca1 {
 
-    background-color: rgb(26, 28, 16);
+    background-color: rgb(255, 255, 255);
     color:rgb(179, 171, 21);
     display:block;
     text-align: center;
@@ -61,6 +62,7 @@
     border: 10px solid rgb(92, 219, 67);
     padding: 15px 35px 35px 35px;
     margin: 100px;
+    color: white;
 }
 
 
@@ -69,6 +71,7 @@
     border: 10px solid rgb(92, 219, 67);
     padding: 15px 35px 35px 35px;
     margin: 100px;
+    color: white;
 }
 
 
@@ -77,12 +80,38 @@
     border: 10px solid rgb(92, 219, 67);
     padding: 15px 35px 35px 35px;
     margin: 100px;
+    color: white;
 }
 
 
 .mennu {
     background-color: rgb(192, 145, 58);
 }
+
+.topo1{
+    text-align:right;
+    text-decoration: none;
+    color:rgb(114, 180, 43);
+    font-size: 18px;
+    
+}
+
+.topo2{
+    text-align: right;
+    text-decoration: none;
+    color:rgb(114, 180, 43);
+    font-size: 18px;
+    
+}
+
+.topo3{
+    text-align: right;
+    text-decoration: none;
+    color:rgb(114, 180, 43);
+    font-size: 18px;
+    
+}
+
 .topo:hover{
     visibility:hidden;
     display:block;

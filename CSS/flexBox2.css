@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    border: 1px solid black;
+    width: 70%; /* ocupar 70% da tela */
+    margin: auto /* alinhando o container */
+
+    /* Precisamos tomar cuidado p nao confundir o alinhamento do container com o alinham dos
+    itens que estão dentro do container */
+}
